@@ -57,7 +57,7 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
 	map <unique> и b
 	map <unique> т n
 	map <unique> ь m
-	map <unique> б ,
+	" map <unique> б ,
 	map <unique> ю .
 	map <unique> Ё ~
 	map <unique> Й Q
@@ -615,4 +615,10 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
 	map <unique> <C-W>ч <C-W>x
 	map <unique> <C-W>я <C-W>z
 	map <unique> <C-W>Ъ <C-W>}
+
+    "--- custom: 'б' as a leader
+    nmap б <Leader>
+    vmap б <Leader>
+    omap б <Leader>
+
 endif
